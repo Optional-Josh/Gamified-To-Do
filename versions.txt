@@ -1,0 +1,2 @@
+0.1
+- created class profile with name, level and xp points
