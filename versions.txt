@@ -1,2 +1,4 @@
 0.1
 - created class profile with name, level and xp points
+0.2 
+- created class task with task name and points
