@@ -7,4 +7,6 @@ class Task:
         task_list = []
         task_list.append(self.task_name)
         task_list.append(self.points)
-        return task_list
+
+        for task in task_list:
+            return task
