@@ -6,3 +6,5 @@
 - edited return value of class method compiler
 0.4
 - added task attributes and testing our kwards for python dictionaries
+0.5
+- compiler method turns all task attributes into a dictionary and append to a list

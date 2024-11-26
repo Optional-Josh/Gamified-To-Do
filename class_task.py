@@ -8,8 +8,16 @@ class Task:
 
     def compiler(self):
         task_list = []
-        task_list.append(self.task_name)
-        task_list.append(self.points)
+        dict = {
+            'name':self.name,
+            'priority':self.priority,
+            'points':self.points,
+            'due date':self.due_date
+        }
+        task_list.append(dict)
 
         for task in task_list:
-            return task
+            for key, value in task.items():
+                task_list.append((key, value))
+
+        return task_list
