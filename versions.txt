@@ -4,3 +4,5 @@
 - created class task with task name and points
 0.3
 - edited return value of class method compiler
+0.4
+- added task attributes and testing our kwards for python dictionaries

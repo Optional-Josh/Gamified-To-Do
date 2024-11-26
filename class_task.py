@@ -1,7 +1,10 @@
 class Task:
-    def __init__(self, task_name, points):
-        self.task_name = task_name
+    def __init__(self, name, priority, due_date, points):
+        self.name = name
+        self.priority = priority
+        self.due_date = due_date
         self.points = points
+        
 
     def compiler(self):
         task_list = []
