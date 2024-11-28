@@ -11,5 +11,5 @@ def test(**kwargs):
 
 if __name__ == "__main__":
     # test(name="Joshua", task="duty")
-    first_task = Task("record html", "important", "today", 5)
+    first_task = Task("record html", "important", "today", 5, False)
     print(first_task.compiler())
