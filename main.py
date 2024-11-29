@@ -11,5 +11,8 @@ def test(**kwargs):
 
 if __name__ == "__main__":
     # test(name="Joshua", task="duty")
-    first_task = Task("record html", "important", "today", 5, False)
-    print(first_task.compiler())
+    person_one = Profile("Mr", 25)
+    first_task = Task(person_one, "important", "today", 5, False)
+    person_two = Profile("Mrs", 100, 1000)
+    person_one.advance_level()
+    first_task.compiler()

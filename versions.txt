@@ -10,3 +10,6 @@
 - compiler method turns all task attributes into a dictionary and append to a list
 0.6
 - added status task attribute
+0.7
+- added str method in profile class to display contents of class attributes
+- converted class attributes of task into automatically a dictionary for its attributes rather than going to a method
