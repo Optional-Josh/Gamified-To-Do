@@ -13,3 +13,6 @@
 0.7
 - added str method in profile class to display contents of class attributes
 - converted class attributes of task into automatically a dictionary for its attributes rather than going to a method
+0.8
+- integrated task system into a class method inside class profile which stores in a list
+- check status class method in class profile which checks if status in task is complete to add points to class profile xp
