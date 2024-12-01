@@ -1,5 +1,6 @@
 from class_profile import Profile
 from class_task import Task
+from file_manipulation import append_dict_json
 
 
 # class Profile requires name, level and xp
@@ -17,5 +18,6 @@ if __name__ == "__main__":
 
     person_one.add_task("work out", "today", 25, True)
     person_one.add_task("train", "today", 25, True)
-    print(person_one.task)
+    append_dict_json(person_one.task)
+    
 
