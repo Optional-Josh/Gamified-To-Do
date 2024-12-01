@@ -19,3 +19,9 @@
 0.9
 - added file manipulation module to hold functions for reading and adding data to a json file
 - added menu to compile all classes and task into one for the future
+0.10 
+- added comments to describe classes, methods and functions in different modules
+- fixed append to json function for handling list of dictionaries to be appended including any existing content in json
+- removed class task as it is integrated into class profile as a class method
+- added data functions for data analytics and using DataFrames
+- function that adds dataframe into txt file with a format that creates a table of columns and rows using symbols +, -, |

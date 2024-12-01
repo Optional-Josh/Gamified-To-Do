@@ -1,23 +1,20 @@
 from class_profile import Profile
-from class_task import Task
-from file_manipulation import append_dict_json
-
+from file_functions import append_dict_json, read_file, sort_json, load_file
+from data_functions import convert_dataframe, dataframe_txt_styled
 
 # class Profile requires name, level and xp
-# class Task requires name, priority, due date, points, and status
+# class Profile has a method to add tasks which is stored in a dictionary and appended to list
+# function dataframe_txt_styled has dataframe and profile name as parameters
 
-# def test_kwargs(**kwargs):
-#     for key,value in kwargs.items():
-#         print(f'{key}: {value}')
+# method to add task requires description, due date, points, and status as parameters
+
 
 if __name__ == "__main__":
-    # test(name="Joshua", task="duty")
-    person_one = Profile("Mr", 0, 1)
-    # first_task = Task(person_one, "work out", "today", 25, True)
-    # second_task = Task(person_one, "study", "today", 25, True)
+    person_one = Profile("Jake", 0, 1)
 
-    person_one.add_task("work out", "today", 25, True)
-    person_one.add_task("train", "today", 25, True)
-    append_dict_json(person_one.task)
+    json_data = load_file(person_one.name)
+    dataframe = convert_dataframe(json_data)
+    print(dataframe_txt_styled(dataframe, person_one.name))
     
+
 

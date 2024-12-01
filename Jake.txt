@@ -1,0 +1,7 @@
++------+-------------+--------+-----------+--------+
+| name | description | points | due date  | status |
++------+-------------+--------+-----------+--------+
+| Jake | work out    | 10     | today     | True   |
+| Jake | train       | 10     | tomorrow  | False  |
+| Jake | program     | 15     | next week | False  |
++------+-------------+--------+-----------+--------+
