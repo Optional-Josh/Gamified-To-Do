@@ -1,23 +1,37 @@
 [
   {
     "name": "Jake",
-    "description": "work out",
-    "points": 10,
+    "description": "record video",
+    "points": 25,
     "due date": "today",
     "status": true
   },
   {
     "name": "Jake",
-    "description": "train",
-    "points": 10,
-    "due date": "tomorrow",
+    "description": "journal",
+    "points": 25,
+    "due date": "today",
     "status": false
   },
   {
     "name": "Jake",
     "description": "program",
-    "points": 15,
-    "due date": "next week",
+    "points": 25,
+    "due date": "today",
+    "status": false
+  },
+  {
+    "name": "Jake",
+    "description": "study",
+    "points": 25,
+    "due date": "today",
+    "status": false
+  },
+  {
+    "name": "Jake",
+    "description": "edit video",
+    "points": 25,
+    "due date": "today",
     "status": false
   }
 ]

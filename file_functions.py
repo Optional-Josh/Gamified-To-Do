@@ -11,7 +11,7 @@ def load_file(profile):
 def read_file(profile):
     with open(f'{profile}.json', 'r') as read_file:
         data = json.load(read_file)
-        formatted_data = (json.dumps(data, read_file, indent=2))
+        formatted_data = (json.dumps(data, indent=2))
     return formatted_data
 
 # adds data into json file and validates contents of json has a list inside 

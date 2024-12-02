@@ -25,3 +25,8 @@
 - removed class task as it is integrated into class profile as a class method
 - added data functions for data analytics and using DataFrames
 - function that adds dataframe into txt file with a format that creates a table of columns and rows using symbols +, -, |
+0.11
+- changed due date to date 
+- added progress bar to display progress for level up
+- revised computation on level to track overflow of xp
+- turning json list of dictionary to dataframe functions

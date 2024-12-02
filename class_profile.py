@@ -1,3 +1,4 @@
+import sys
 
 # class profile has name, xp, and level as parameters
 # empty list is instantiated for add task method
@@ -31,6 +32,19 @@ class Profile:
         for detail in self.task:
                 if detail['status']:
                     self.xp += detail['points']
+                
+                
+
+    def progress_bar(self, current, total, bar_length=40):
+        progress = min(current/total, 1)
+        block = int(bar_length * progress)
+        bar = "#" * block + "-" * (bar_length - block)
+
+        current_display = f"{current/1000:.1f}k" if current >= 1000 else str(current)
+        total_display = f"{total/1000:.1f}k" if total >= 1000 else str(total)
+
+        sys.stdout.write(f"Level {self.level} |{bar}| {current_display}/{total_display} XP")
+        sys.stdout.flush()
 
     # function that will add a level and distribute points to xp as well as requirement to next level xp
     # note it also carries over excess xp to each level up
@@ -41,6 +55,6 @@ class Profile:
             self.xp = self.xp - self.to_level_next
             self.to_level_next = int(self.to_level_next * 1.5)
 
-            print(f"{self.name} has now reached Level {self.level}!")
-            print(f"Your XP has been reset to {self.xp}")
-            print(f"To reach the next level you need {self.to_level_next}")
+            self.progress_bar(self.xp, self.to_level_next)
+            
+            print(f"\n🎉 Congratulations! You've reached Level {self.level}!")
