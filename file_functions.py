@@ -37,6 +37,7 @@ def append_dict_json(profile, content):
 # function that separates the task dictionaries based on their status of completion of True/False
 def sort_json(datas):
 
+    # list comprehension to complete and incomplete tasks to be sorted
     complete_tasks = [task for task in datas if task["status"] is True]
     incomplete_tasks = [task for task in datas if task["status"] is False]
 

@@ -13,7 +13,6 @@ def dataframe_txt_styled(dataframe, profile):
     column_widths = {col: max(len(str(val)) for val in [col] + dataframe[col].tolist()) for col in dataframe.columns}
 
     border = "+" + "+".join("-" * (column_widths[col] + 2) for col in dataframe.columns) + "+"
-
     header = "| " + " | ".join(col.ljust(column_widths[col]) for col in dataframe.columns) + " |"
 
     rows = []

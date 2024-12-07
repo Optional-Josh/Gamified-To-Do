@@ -31,9 +31,7 @@ class Profile:
     def check_status(self):
         for detail in self.task:
                 if detail['status']:
-                    self.xp += detail['points']
-                
-                
+                    self.xp += detail['points']               
 
     def progress_bar(self, current, total, bar_length=40):
         progress = min(current/total, 1)

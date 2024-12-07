@@ -30,3 +30,6 @@
 - added progress bar to display progress for level up
 - revised computation on level to track overflow of xp
 - turning json list of dictionary to dataframe functions
+0.12
+- fixed some spacings in code 
+- added some comments
