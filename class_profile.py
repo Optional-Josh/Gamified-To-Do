@@ -1,4 +1,5 @@
 import sys
+from datetime import date
 
 # class profile has name, xp, and level as parameters
 # empty list is instantiated for add task method
@@ -17,20 +18,54 @@ class Profile:
     
     # method that compiles input for a task into a dictionary and appended to list in class attribute
     # method requires description, due date, points, and status as parameters
-    def add_task(self, description, due_date, points, status):
+
+    def add_description(self):
+        description = input("Description for task: ")
+        if description.strip() != "":
+            return description
+        
+    def add_date(self):
+        date_input = input("Date for this task 'dd/mm/yyyy': ")
+        if date_input == "":
+            date_input = date.today()
+        formatted_date = date_input.strftime("%d/%m/%Y")
+        return formatted_date
+    
+    def add_points(self):
+        points = (input("Points for this task: "))
+        if points == 0 or points == "":
+            points = 5
+            return points
+        else: 
+            converted = int(points)
+            return converted
+
+    def add_status(self):
+        status = input("Status of Task: ")
+        if status.lower() == "completed":
+            return status
+        else:
+            status = "pending"
+            return status
+
+    def add_task(self):
+        desc_input = self.add_description()
+        date_input = self.add_date()
+        pts_input = self.add_points()
+        stats_input = self.add_status()
         compiled_task_details = {
             'name':self.name,
-            'description':description,
-            'points':points,
-            'due date':due_date,
-            'status':status
+            'description':desc_input,
+            'date':date_input,
+            'points': pts_input,
+            'status':stats_input
         }
         self.task.append(compiled_task_details)
 
     # function that checks any tasks in dictionary has a status of true and adds its points to xp of profile
     def check_status(self):
         for detail in self.task:
-                if detail['status']:
+                if detail['status'] == 'completed':
                     self.xp += detail['points']               
 
     def progress_bar(self, current, total, bar_length=40):
