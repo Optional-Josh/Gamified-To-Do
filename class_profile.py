@@ -27,9 +27,8 @@ class Profile:
     def add_date(self):
         date_input = input("Date for this task 'dd/mm/yyyy': ")
         if date_input == "":
-            date_input = date.today()
-        formatted_date = date_input.strftime("%d/%m/%Y")
-        return formatted_date
+            date_input = date.today().strftime("%d/%m/%Y")
+        return date_input
     
     def add_points(self):
         points = (input("Points for this task: "))
@@ -63,8 +62,8 @@ class Profile:
         self.task.append(compiled_task_details)
 
     # function that checks any tasks in dictionary has a status of true and adds its points to xp of profile
-    def check_status(self):
-        for detail in self.task:
+    def check_status(self, data):
+        for detail in data:
                 if detail['status'] == 'completed':
                     self.xp += detail['points']               
 
@@ -81,8 +80,8 @@ class Profile:
 
     # function that will add a level and distribute points to xp as well as requirement to next level xp
     # note it also carries over excess xp to each level up
-    def advance_level(self):
-        self.check_status()
+    def advance_level(self, data):
+        self.check_status(data)
         while self.xp >= self.to_level_next:
             self.level += 1
             self.xp = self.xp - self.to_level_next

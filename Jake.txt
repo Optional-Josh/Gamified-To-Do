@@ -1,9 +1,0 @@
-+------+--------------+--------+----------+--------+
-| name | description  | points | due date | status |
-+------+--------------+--------+----------+--------+
-| Jake | record video | 25     | today    | True   |
-| Jake | journal      | 25     | today    | False  |
-| Jake | program      | 25     | today    | False  |
-| Jake | study        | 25     | today    | False  |
-| Jake | edit video   | 25     | today    | False  |
-+------+--------------+--------+----------+--------+
