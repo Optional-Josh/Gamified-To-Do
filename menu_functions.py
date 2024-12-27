@@ -31,16 +31,28 @@ def menu_console():
 
         elif lower_prompt == 'view':
             data = load_file(test_profile.name)
-            df = convert_dataframe(data)
-            print(df)
+            
+            # headers and column widths
+            headers = list(data[0].keys())
+            column_widths = [max(len(str(row.get(col, ''))) for row in data + [headers]) for col in headers]
+
+            # Display the headers
+            header_row = " | ".join(f"{col:<{w}}" for col, w in zip(headers, column_widths))
+            print(header_row)
+            print("-" * len(header_row))
+            
+
+            # Display the rows
+            for row in data:
+                print(" | ".join(f"{str(row.get(col, '')):<{w}}" for col, w in zip(headers, column_widths)))
 
         elif lower_prompt == 'update':
             data = load_file(test_profile.name)
-            df = convert_dataframe(data)
 
-            prompt = int(input("Index of row to be marked complete\n"))
-            df.loc[prompt, 'status'] = 'completed'
-            print(df)
+            prompt = input("Description of record to be marked complete\n")
+            for row in data:
+                if row['description'] == prompt:
+                    row['status'] = 'completed'
 
         elif lower_prompt == 'delete':
             data = load_file(test_profile.name)
