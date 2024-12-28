@@ -34,6 +34,10 @@ def append_dict_json(profile, content):
     with open(f"{profile}.json", "w") as json_file:
         json.dump(data, json_file, indent = 2)
 
+def overwrite_dict_json(profile, data):
+    with open(f"{profile}.json", "w") as write_file:
+        json.dump(data, write_file, indent = 2)
+
 # function that separates the task dictionaries based on their status of completion of True/False
 def sort_json(datas):
 

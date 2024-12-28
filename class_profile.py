@@ -53,7 +53,6 @@ class Profile:
         pts_input = self.add_points()
         stats_input = self.add_status()
         compiled_task_details = {
-            'name':self.name,
             'description':desc_input,
             'date':date_input,
             'points': pts_input,
