@@ -1,14 +1,25 @@
 import pandas as pd
+import os
 from class_profile import Profile
 from file_functions import append_dict_json, read_file, sort_json, load_file, overwrite_dict_json
-from data_functions import convert_dataframe, dataframe_txt_styled
+from data_functions import convert_dataframe
 
-def menu_console():
-    
-    prompt = input("Please state your name\n")
-    running = True
+def user_login():
 
-    test_profile = Profile(prompt, 0, 1)
+    while True:
+        username = input("Please state your name\n")
+
+        folder_path = "C:\\Users\\Administrator\\Desktop\\Entire Files\\Programming\\Self-Taught Work\\Gamified To Do"
+        file_name = f"{username}.json"
+
+        file_path = os.path.join(folder_path, file_name)
+
+        if os.path.isfile(file_path):
+            return username
+
+def menu_console(username):
+
+    test_profile = Profile(username, 0, 1)
 
     help_menu = """
         Would you like to add, view, update or delete a record?
@@ -18,6 +29,7 @@ def menu_console():
         Type 'delete' to delete record(s)\n
         """
     
+    running = True
     while running:
 
         print(help_menu)
@@ -25,18 +37,20 @@ def menu_console():
         lower_prompt = prompt.lower()
 
         if lower_prompt == 'add':
+            date_input = input("What are the date for this task(s) 'yyyy-mm-dd': ")
             i = int(input("How many records would you like to add?\n"))
             for record in range(0, i):
-                test_profile.add_task()
+                test_profile.add_task(date_input)
                 print(f"Record added: {record+1}")
             append_dict_json(test_profile.name, test_profile.task)
+            test_profile.task.clear()
 
         elif lower_prompt == 'view':
             data = load_file(test_profile.name)
 
             headers = list(data[0].keys())
 
-            column_widths = [max(len(str(row.get(col, ""))) for row in data) for col in headers]
+            column_widths = [max(len(str(row.get(col, ""))) for row in data + [dict(zip(headers, headers))])for col in headers]
 
             header_row = " | ".join(f"{col:<{w}}" for col, w in zip(headers, column_widths))
             print(header_row)
@@ -44,7 +58,7 @@ def menu_console():
 
             for row in data:
                 print(" | ".join(f"{str(row.get(col, '')):<{w}}" for col, w in zip(headers, column_widths)))
-            print('\n')
+            print(f"Total Number of Records: {len(data)}\n")
 
 
         elif lower_prompt == 'update':
@@ -96,8 +110,8 @@ def menu_console():
  ask to add task, view, update or delete tasks
  then ask to check status of all tasks to be compiled to profile
  level up and then quit
-
 """
 
 if __name__ == "__main__":
-    menu_console()
+    info = user_login()
+    menu_console(info)

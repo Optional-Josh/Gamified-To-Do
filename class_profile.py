@@ -19,24 +19,38 @@ class Profile:
     # method that compiles input for a task into a dictionary and appended to list in class attribute
     # method requires description, due date, points, and status as parameters
 
+    def add_category(self):
+        categories = ['Household', 'Work', 'Personal', 'Relationship']
+        print('1 - Household, 2 - Work, 3 - Personal, 4 - Relationship')
+        category_input = input("Category for this task: ")
+        if category_input.lower() == '1':
+            return categories[0]
+        elif category_input.lower() == '2':
+            return categories[1]
+        elif category_input.lower() == '3':
+            return categories[2]
+        elif category_input.lower() == '4':
+            return categories[3]
+
     def add_description(self):
         description = input("Description for task: ")
         if description.strip() != "":
             return description
         
-    def add_date(self):
-        date_input = input("Date for this task 'dd/mm/yyyy': ")
+    def add_date(self, date_input):
+        # date_input = input("Date for this task 'dd/mm/yyyy': ")
         if date_input == "":
-            date_input = date.today().strftime("%d/%m/%Y")
+            date_input = date.today().strftime("%Y/%m/%d")
         return date_input
     
-    def add_points(self):
-        points = (input("Points for this task: "))
-        if points == 0 or points == "":
-            points = 5
-            return points
+    def add_diff(self):
+        print('1 - Easy, 2 - Medium, 3 - Hard')
+        diff_input = input('Difficulty Level for this task: ')
+        if diff_input == '0' or diff_input == "":
+            diff_level = 1
+            return diff_level
         else: 
-            converted = int(points)
+            converted = int(diff_input)
             return converted
 
     def add_status(self):
@@ -47,14 +61,24 @@ class Profile:
             status = "pending"
             return status
 
-    def add_task(self):
+    def add_task(self, out_date_input):
+        category_input = self.add_category()
         desc_input = self.add_description()
-        date_input = self.add_date()
-        pts_input = self.add_points()
+        date_input = self.add_date(out_date_input)
+        diff_input = self.add_diff()
+
+        if diff_input == 1:
+            pts_input = 5
+        elif diff_input == 2:
+            pts_input = 10
+        elif diff_input == 3:
+            pts_input = 15
         stats_input = self.add_status()
         compiled_task_details = {
+            'category': category_input,
             'description':desc_input,
             'date':date_input,
+            'difficulty': diff_input,
             'points': pts_input,
             'status':stats_input
         }
@@ -83,9 +107,11 @@ class Profile:
         self.check_status(data)
         while self.xp >= self.to_level_next:
             self.level += 1
+            
+            self.progress_bar(self.xp, self.to_level_next)
+
             self.xp = self.xp - self.to_level_next
             self.to_level_next = int(self.to_level_next * 1.5)
 
-            self.progress_bar(self.xp, self.to_level_next)
             
             print(f"\n🎉 Congratulations! You've reached Level {self.level}!")
