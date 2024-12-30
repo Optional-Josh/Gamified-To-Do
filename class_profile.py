@@ -21,7 +21,6 @@ class Profile:
 
     def add_category(self):
         categories = ['Household', 'Work', 'Personal', 'Relationship']
-        print('1 - Household, 2 - Work, 3 - Personal, 4 - Relationship')
         category_input = input("Category for this task: ")
         if category_input.lower() == '1':
             return categories[0]
@@ -44,7 +43,6 @@ class Profile:
         return date_input
     
     def add_diff(self):
-        print('1 - Easy, 2 - Medium, 3 - Hard')
         diff_input = input('Difficulty Level for this task: ')
         if diff_input == '0' or diff_input == "":
             diff_level = 1
@@ -62,10 +60,11 @@ class Profile:
             return status
 
     def add_task(self, out_date_input):
-        category_input = self.add_category()
-        desc_input = self.add_description()
         date_input = self.add_date(out_date_input)
+        category_input = self.add_category()
         diff_input = self.add_diff()
+        desc_input = self.add_description()
+        stats_input = self.add_status()
 
         if diff_input == 1:
             pts_input = 5
@@ -73,13 +72,13 @@ class Profile:
             pts_input = 10
         elif diff_input == 3:
             pts_input = 15
-        stats_input = self.add_status()
+            
         compiled_task_details = {
             'category': category_input,
-            'description':desc_input,
-            'date':date_input,
             'difficulty': diff_input,
+            'description':desc_input,
             'points': pts_input,
+            'date':date_input,
             'status':stats_input
         }
         self.task.append(compiled_task_details)
