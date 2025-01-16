@@ -54,6 +54,7 @@ def menu_console(username):
                 guide()
                 test_profile.add_task(date_input)
                 print(f"Record added: {record+1}")
+                print('---------------------------------')
             append_dict_json(test_profile.name, test_profile.task)
             test_profile.task.clear()
 
