@@ -29,13 +29,13 @@ class Login_Frame(ttk.Frame):
     def login_widgets(self):
 
         console = ttk.Label(self, text = 'test', background = '#f07167')
-        console.place(relx=0.45, rely=0.35, relwidth=0.10, relheight=0.10,)
+        console.place(relx=0.45, rely=0.35, relwidth=0.20, relheight=0.20, anchor='center')
 
         entry = ttk.Entry(self)
-        entry.place(relx=0.45, rely=0.50)
+        entry.place(relx=0.45, rely=0.50, anchor='center')
 
         console_btn = ttk.Button(self, text='Button')
-        console_btn.place(relx=0.70, rely=0.50)
+        console_btn.place(relx=0.70, rely=0.50, anchor='center')
 
 
     def get_pos(self, event):
