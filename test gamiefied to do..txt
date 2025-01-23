@@ -1,0 +1,24 @@
+gamified to do automatic complete but only have to open the program to turn it to incomplete
+
+category
+
+personal 
+work
+relationship
+
+status is always auto pending
+category id of 1.1, 2.1, 3.1
+
+personal 1.1, 1.2
+work 
+
+
+view
+
+gui philosophy
+make the user type less
+
+reward system is by cosmetics ,the more points the more you edit or personalize your app
+
+
+
