@@ -4,19 +4,6 @@ from class_profile import Profile
 from file_functions import append_dict_json, read_file, sort_json, load_file, overwrite_dict_json
 from data_functions import convert_dataframe
 
-def user_login():
-
-    while True:
-        username = input("Please state your name\n")
-
-        folder_path = "C:\\Users\\Administrator\\Desktop\\Entire Files\\Programming\\Self-Taught Work\\Gamified To Do"
-        file_name = f"{username}.json"
-
-        file_path = os.path.join(folder_path, file_name)
-
-        if os.path.isfile(file_path):
-            return username
-        
 def guide():
     print('''
         Category

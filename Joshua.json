@@ -1,0 +1,1538 @@
+[
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 1,
+    "description": "wash dishes",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program",
+    "points": 15,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "organize notepads",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "organize files",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "file of first steps",
+    "points": 15,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "shower",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "toothbrush",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "read book",
+    "points": 15,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "cut nails",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "photostudio for new profile",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget management",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Relationship",
+    "difficulty": 3,
+    "description": "hannah picture edits",
+    "points": 15,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "google slides",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-6",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "haircut",
+    "points": 10,
+    "date": "2024-12-6",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program",
+    "points": 15,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "organize notepads",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "organize files",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "file of first steps",
+    "points": 15,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "shower",
+    "points": 5,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "haircut",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "toothbrush",
+    "points": 5,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "read book",
+    "points": 15,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget management",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "google slides",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-7",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "isc2",
+    "points": 15,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "read book",
+    "points": 15,
+    "date": "2024-12-8",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "organize notepads",
+    "points": 10,
+    "date": "2024-12-8",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "organize files",
+    "points": 10,
+    "date": "2024-12-8",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "toothbrush",
+    "points": 5,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "file of first steps",
+    "points": 15,
+    "date": "2024-12-8",
+    "status": "pending"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "google slides",
+    "points": 10,
+    "date": "2024-12-8",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget management",
+    "points": 10,
+    "date": "2024-12-8",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10 mouse 3",
+    "points": 5,
+    "date": "2024-12-8",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "read book",
+    "points": 15,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "notepads",
+    "points": 10,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-9",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "toothbrush",
+    "points": 5,
+    "date": "2024-12-9",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "slides",
+    "points": 10,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget",
+    "points": 10,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10, mouse 3",
+    "points": 5,
+    "date": "2024-12-9",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-9",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-10",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "fold clothes",
+    "points": 10,
+    "date": "2024-12-10",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "take money",
+    "points": 10,
+    "date": "2024-12-10",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 1,
+    "description": "youtube video topic",
+    "points": 5,
+    "date": "2024-12-10",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-10",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "wash bag",
+    "points": 10,
+    "date": "2024-12-10",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-10",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget",
+    "points": 10,
+    "date": "2024-12-10",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10, mouse 3",
+    "points": 5,
+    "date": "2024-12-10",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10, mouse 3",
+    "points": 5,
+    "date": "2024-12-11",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "shower",
+    "points": 5,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "toothbrush",
+    "points": 5,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "notepad",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "file of first steps",
+    "points": 15,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 1,
+    "description": "yt video proposal",
+    "points": 5,
+    "date": "2024-12-11",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "wash bag and bedsheet",
+    "points": 10,
+    "date": "2024-12-11",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-11",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-12",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-12",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget",
+    "points": 10,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "file of first step",
+    "points": 15,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "notepad",
+    "points": 10,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-12",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-12",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "wash bag",
+    "points": 5,
+    "date": "2024-12-12",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-13",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "notepad",
+    "points": 10,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-13",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-13",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-13",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "budget",
+    "points": 10,
+    "date": "2024-12-13",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-13",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-14",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "playground git",
+    "points": 15,
+    "date": "2024-12-14",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-14",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-14",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-14",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-14",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-14",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-14",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-14",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-15",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-15",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "fold clothes",
+    "points": 10,
+    "date": "2024-12-15",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-15",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-15",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-15",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-15",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "duolingo",
+    "points": 5,
+    "date": "2024-12-15",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-15",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-15",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "notepad",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 3,
+    "description": "fold clothes",
+    "points": 15,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Household",
+    "difficulty": 1,
+    "description": "wash dishes",
+    "points": 5,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "shower",
+    "points": 5,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "review",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "typescript slide",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "first steps",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "book",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-16",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-17",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 3,
+    "description": "fold clothes",
+    "points": 15,
+    "date": "2024-12-17",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "shower",
+    "points": 5,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "typescript slide",
+    "points": 10,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 3,
+    "description": "record yt video",
+    "points": 15,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 3,
+    "description": "edit yt video",
+    "points": 15,
+    "date": "2024-12-17",
+    "status": "pending"
+  },
+  {
+    "category": "Work",
+    "difficulty": 3,
+    "description": "christmas video",
+    "points": 15,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "christmas picture",
+    "points": 10,
+    "date": "2024-12-17",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-17",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-18",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-18",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 3,
+    "description": "fold clothes",
+    "points": 15,
+    "date": "2024-12-18",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "shower",
+    "points": 5,
+    "date": "2024-12-18",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 3,
+    "description": "edit yt video",
+    "points": 15,
+    "date": "2024-12-18",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-18",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-18",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-18",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-19",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-19",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 3,
+    "description": "fold clothes",
+    "points": 15,
+    "date": "2024-12-19",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-19",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-19",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-19",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-19",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-19",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-19",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-20",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-20",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 3,
+    "description": "fold clothes",
+    "points": 15,
+    "date": "2024-12-20",
+    "status": "pending"
+  },
+  {
+    "category": "Household",
+    "difficulty": 2,
+    "description": "refill water",
+    "points": 10,
+    "date": "2024-12-20",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-20",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-20",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "notepad",
+    "points": 10,
+    "date": "2024-12-20",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "files",
+    "points": 10,
+    "date": "2024-12-20",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-20",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-20",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "journal",
+    "points": 10,
+    "date": "2024-12-21",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "program, commit, push",
+    "points": 15,
+    "date": "2024-12-21",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "type 10",
+    "points": 5,
+    "date": "2024-12-21",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 1,
+    "description": "mouse 3",
+    "points": 5,
+    "date": "2024-12-21",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "book",
+    "points": 15,
+    "date": "2024-12-21",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "first steps",
+    "points": 15,
+    "date": "2024-12-21",
+    "status": "pending"
+  },
+  {
+    "category": "Work",
+    "difficulty": 2,
+    "description": "presentation slide about discord/reddit",
+    "points": 10,
+    "date": "2024-12-21",
+    "status": "completed"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 2,
+    "description": "isc2",
+    "points": 10,
+    "date": "2024-12-21",
+    "status": "pending"
+  },
+  {
+    "category": "Personal",
+    "difficulty": 3,
+    "description": "kivy",
+    "points": 15,
+    "date": "2024-12-21",
+    "status": "completed"
+  },
+  {
+    "category": "Work",
+    "difficulty": 3,
+    "description": "onecodecamp bootcamp",
+    "points": 15,
+    "date": "2025/01/14",
+    "status": "completed"
+  },
+  {
+    "category": "Relationship",
+    "difficulty": 2,
+    "description": "gaming with Shajmil",
+    "points": 10,
+    "date": "2025/01/20",
+    "status": "completed"
+  },
+  {
+    "category": null,
+    "difficulty": 2,
+    "description": null,
+    "points": 10,
+    "date": "2025/01/20",
+    "status": "pending"
+  }
+]
